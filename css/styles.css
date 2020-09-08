@@ -1,85 +1,88 @@
 .row-header{
     margin:0px;
     padding: 0px auto;
-    }
-    
-    .row-content{
+}
+
+.row-content{
     margin:0px auto;
     padding:25px 25px 30px 25px;
     border-bottom: 2px ridge;
     min-height: 250px;
-    }
+}
+
+.footer{
+    background-color:#001A23;
+        /*Background-color:#D1C4E9; */
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    color: floralwhite;
+}
+
+
+
+.jumbotron{
+        background-color: #02182B;
+    /*background:#9575CD ;*/
+    color:floralwhite;
+    margin: 0px;
+    padding: 70px 30px 70px 30px;
+}
+
+.address{
+    font-size: 80%;
+    margin:0px;
+    color:floralwhite;
+}
+
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background-color: #7F3334;
+    /* background-color: #512DA8;*/
+}
+
+.card-header{
+    background-color: #7F3334 ;
+    color:floralwhite;
+}
+
+.thead{
+    background-color: #7F3334 ;
+
+}
+
+.tab-content{
+    border-right:1px solid #ddd ;
+    border-left:1px solid #ddd ;
+    border-bottom:1px solid #ddd ; 
+    padding: 20px;
+}
+
+.carousel{
+    background:#02182B;
+}
+
+.carousel-item{
+    height:400px;
     
-    .footer{
-        background-color:#001A23;
-          /*Background-color:#D1C4E9; */
-        margin: 0px;
-        padding: 20px 0px 20px 0px;
-        color: floralwhite;
-    }
+}
+.carousel-item img{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    min-height: 400px;
 
-   
+}
 
-    .jumbotron{
-         background-color: #02182B;
-        /*background:#9575CD ;*/
-        color:floralwhite;
-        margin: 0px;
-        padding: 70px 30px 70px 30px;
-    }
-
-    .address{
-        font-size: 80%;
-        margin:0px;
-        color:floralwhite;
-    }
+#carouselButton{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}
 
 
-    body{
-        padding: 50px 0px 0px 0px;
-        z-index: 0;
-    }
-
-    .navbar-dark{
-        background-color: #7F3334;
-       /* background-color: #512DA8;*/
-    }
-
-    .card-header{
-        background-color: #7F3334 ;
-        color:floralwhite;
-    }
-
-    .thead{
-        background-color: #7F3334 ;
-
-    }
-
-    .tab-content{
-        border-right:1px solid #ddd ;
-        border-left:1px solid #ddd ;
-        border-bottom:1px solid #ddd ; 
-        padding: 20px;
-    }
-
-    .carousel{
-        background:#02182B;
-    }
-
-    .carousel-item{
-        height:300px;
-        
-    }
-    .carousel-item img{
-        position: absolute;
-        top:0;
-        left:0;
-        min-height: 300px;
-
-    }
-
-    #carouselButton{
-        right: 0px;
-        bottom: 0px;
-        position: absolute;
-    }
