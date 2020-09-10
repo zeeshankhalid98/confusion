@@ -1,7 +1,7 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+$background-dark: #7F3334;
+$background-light: #02182B;
+$background-pale: #1b4a72;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -34,7 +34,7 @@ $carousel-item-height: 300px;
 address{
     font-size:80%;
     margin:0px;
-    color:#0f0f0f;
+    color:floralwhite;
 }
 
 body{
@@ -45,6 +45,7 @@ body{
 .navbar-dark {
      background-color: $background-dark;
 }
+
 
 .tab-content {
     border-left: 1px solid $lt-gray;
@@ -72,3 +73,21 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+
+.modal {
+
+    position: absolute;
+    .modal-body{
+        background-color:$background-light;
+    }
+    .modal-header{
+        background-color:$background-pale;
+        color:floralwhite;
+    }
+    .close{
+        color:floralwhite;
+        
+    }
+}
+
