@@ -22,7 +22,7 @@
 address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
+  color: floralwhite; }
 
 body {
   padding: 50px 0px 0px 0px;
@@ -53,19 +53,12 @@ body {
   bottom: 0px;
   z-index: 1; }
 
-
- 
-
-
 .modal {
   position: absolute; }
   .modal .modal-body {
-    background-color: #02182B; }
+    background-color: #ddd; }
   .modal .modal-header {
-    background-color: #1b4a72;
+    background-color: #7F3334;
     color: floralwhite; }
   .modal .close {
     color: floralwhite; }
-
-
-    

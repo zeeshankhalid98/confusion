@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--<ui:include src="index.xhtml" />-->
+    
 <head>
 
     <title>Ristorante Con Fusion: About Us</title>
@@ -8,6 +10,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -30,6 +34,11 @@
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
                         <li class="nav-item active"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
+                <span class="navbar-text"> <!--  in anchor I've used the class that I wanted which is not taught to me yet  -->
+                    <a id="loginModalButton" class="btn btn-bd-login d-lg-inline-block mb-3 mb-md-0 ml-md-3" type="button">
+                        Login <span class="fa fa-sign-in"></span>
+                    </a>
+                </span>
             </div>
         </div>
     </nav>
@@ -45,7 +54,7 @@
                     <img src="img/logo.png"   class="image-fluid ">
                 </div>
                 <div class="col-12 col-sm ">
-                    <a href="index.html#reservation" class="btn btn-warning btn-lg btn-block" role="button" >Reserve Table</a>
+                    <button class="btn btn-warning btn-lg btn-block" type="button" id="reservationModalButton">Reserve Table</button>
                 </div>
             </div>
         </div>
@@ -240,6 +249,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js" ></script>
+
 </body>
 
 </html>

@@ -79,10 +79,10 @@ body{
 
     position: absolute;
     .modal-body{
-        background-color:$background-light;
+        background-color:$lt-gray;
     }
     .modal-header{
-        background-color:$background-pale;
+        background-color:$background-dark;
         color:floralwhite;
     }
     .close{
